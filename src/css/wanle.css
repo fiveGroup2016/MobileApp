@@ -4,5 +4,24 @@
     color: #fff;
 }
 .bar-header a {
+    position: relative;
+    left: 20px;
     color: #fff;
+    line-height: 34px;
+}
+.search {
+    position: relative;
+    right:10px;
+    line-height: 34px;
+
+}
+.search input {
+    width: 200px;
+    height: 25px;
+    padding-left: 20px;
+    border-radius: 12.5px;
+}
+.search .ion-search {
+    position: absolute;
+    left:5px;
 }
